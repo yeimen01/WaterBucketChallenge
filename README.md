@@ -32,17 +32,17 @@ To retrieve the solution, send a GET request to the endpoint `api/waterBucket` i
 
 one example either using steps or stepsDetail endpoint:
 
-Get /api/waterBucket/steps?x=2&y=10&z=4
+`Get /api/waterBucket/steps?x=2&y=10&z=4`
 
 given x, y, z parameters valid values for steps endpoint:
 
 Respose
-{
+`
 Filled 2 to bucket X
 Transfer 2 from bucket X to bucket Y
 Filled 2 to bucket X
 Transfer 2 from bucket X to bucket Y
-}
+`
 
 ## Limitations
 
