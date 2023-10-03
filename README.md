@@ -32,7 +32,7 @@ one example either using steps or stepsDetail endpoint:
 
 `Get /api/waterBucket/steps?x=2&y=10&z=4`
 
-given `x`, `y`, `z` parameters valid values for steps endpoint:
+given `x`, `y`, `z` parameters valid values for steps endPoint:
 
 Respose
 ```json
@@ -43,6 +43,8 @@ Filled 2 to bucket X
 Transfer 2 from bucket X to bucket Y
 }
 ```
+
+given `x`, `y`, `z` parameters valid values for stepsDetail endPoint:
 
 `Get /api/waterBucket/stepsDetail?x=2&y=10&z=4`
 
